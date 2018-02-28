@@ -1,0 +1,80 @@
+# SITE CONFIGURATION
+baseurl: ""
+url: "https://bydmitry.github.io"
+
+# THEME-SPECIFIC CONFIGURATION
+theme_settings:
+  # Meta
+  title: ml-splashes
+  avatar: assets/img/splat.png
+  favicon: assets/favicon.ico
+  gravatar: # Email MD5 hash
+  description: "Dmitrii Bychkov personal blog about machine learning and biomedical research." # used by search engines
+
+  # Header and footer text
+  header_text: <p align="left" style="font-size:85%;"><code>random <br>ml_snippets </code></p>
+  header_text_feature_image: assets/img/pexels/strap.jpeg
+  footer_text: 2018 Dmitrii Bychkov. Powered by Jekyll using the Type-On-Strap Theme.
+
+  # Icons
+  rss: false
+  email_address: bydmitrii@gmail.com
+  behance:
+  bitbucket:
+  dribbble:
+  facebook:
+  flickr:
+  gitlab:
+  github: "bydmitry"
+  google_plus:
+  instagram: bydmitrii
+  keybase:
+  linkedin:  # Full URL
+
+
+  # Scripts / Features
+  google_analytics: "UA-113090780-1"
+  disqus_shortname: bydmitry
+  katex: true # Enable if using math markup
+  portfolio: false
+  search: false
+  tags: false
+
+
+  # Localization strings
+  str_follow_on: "Follow on"
+  str_rss_follow: "Follow RSS feed"
+  str_email: "Email"
+  str_next_post: "Next post"
+  str_previous_post: "Previous post"
+  str_next_page: "Next"
+  str_previous_page: "Prev"
+  str_continue_reading: "Continue reading"
+  str_javascript_required_disqus: "Please enable JavaScript to view comments."
+
+  # Colours, typography and padding
+  # Open the "_sass > base" folder, and open "_variables.scss"
+  google_fonts: "Source+Sans+Pro:400,700,700italic,400italic"
+
+  # Post navigation
+  post_navigation: true
+
+# PAGINATION
+paginate: 5
+paginate_path: "blog/page:num"
+
+# PORTFOLIO
+collections:
+  portfolio:
+    output: true
+    permalink: /:collection/:name
+
+# BUILD SETTINGS
+markdown: kramdown
+highlighter: rouge
+sass:
+  sass_dir: _sass
+  style: :compressed
+plugins: [jekyll-paginate, jekyll-seo-tag]
+theme: type-on-strap # If using the theme as a jekyll theme gem
+exclude: ["Gemfile", "Gemfile.lock", "type-on-strap.gemspec", "*.gem", "LICENSE", "README.md", "screenshot.png"]
