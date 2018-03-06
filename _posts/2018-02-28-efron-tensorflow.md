@@ -278,9 +278,10 @@ __If you find mistakes or have suggestions how to optimize the code, I would be 
 
 
 
-### Validation with R Survival package
+### Validation with R and Lifelines
 
-I also wrote a [script](https://github.com/bydmitry/efron-tf/blob/master/validation.py){:target="blank"} to validate that our TensorFlow implementation is correct and produces the same result as R _survival_ package.
+Here is a [script that validates the TensorFlow code](https://github.com/bydmitry/efron-tf/blob/master/validation.py){:target="blank"} with Efron implementations from _[Lifelines](https://github.com/CamDavidsonPilon/lifelines){:target="blank"}_ (thanks to Cameron) and _R-survival_ package.
+
 
 
 <script>
