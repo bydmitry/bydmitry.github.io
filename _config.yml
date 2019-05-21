@@ -14,7 +14,7 @@ theme_settings:
   # Header and footer text
   header_text: <p align="left" style="font-size:85%;"><code>random <br>ml_snippets </code></p>
   header_text_feature_image: assets/img/pexels/strap.jpeg
-  footer_text: 2018 Dmitrii Bychkov. Powered by Jekyll using the Type-On-Strap Theme.
+  footer_text: 2019 Dmitrii Bychkov. Powered by Jekyll using the Type-On-Strap Theme.
 
   # Icons
   rss: false
@@ -29,7 +29,7 @@ theme_settings:
   google_plus:
   instagram: bydmitrii
   keybase:
-  linkedin:  # Full URL
+  linkedin:  https://www.linkedin.com/in/bydmitrii/
 
 
   # Scripts / Features
