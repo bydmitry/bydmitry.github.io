@@ -5,14 +5,14 @@ url: "https://bydmitry.github.io"
 # THEME-SPECIFIC CONFIGURATION
 theme_settings:
   # Meta
-  title: ml-splashes
+  title: random.ml_snippets()
   avatar: assets/img/splat.png
   favicon: assets/favicon.ico
   gravatar: # Email MD5 hash
   description: "Dmitrii Bychkov personal blog about machine learning and biomedical research." # used by search engines
 
   # Header and footer text
-  header_text: <p align="left" style="font-size:85%;"><code>random <br>ml_snippets </code></p>
+  header_text: <p align="left" style="font-size:85%;"><code><br>random.ml_snippets() </code></p>
   header_text_feature_image: assets/img/pexels/strap.jpeg
   footer_text: 2019 Dmitrii Bychkov. Powered by Jekyll using the Type-On-Strap Theme.
 
